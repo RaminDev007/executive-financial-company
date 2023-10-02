@@ -1,0 +1,76 @@
+.demo {
+  background-color: #f8f8f8;
+  padding: 8rem 1rem;
+  width: 100%;
+}
+
+.demo .container {
+  max-width: 786px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.demo .container p:nth-child(1) {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.demo .container p:nth-child(2) {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.demo .container p:nth-child(3) {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.demo .container .button {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 940px) {
+  .demo {
+    padding: 8rem 1rem;
+  }
+
+  .demo .container {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .demo .container p:nth-child(1) {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+
+  .demo .container p:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .demo .container p:nth-child(3) {
+    font-size: 0.9rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+
+  .demo .container .button {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .demo .container iframe {
+    height: 350px;
+    width: 350px;
+  }
+}
